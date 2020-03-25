@@ -1,0 +1,46 @@
+.end {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.end-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 0;
+
+    color: #EB5757;
+}
+
+.end-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+
+    text-align: center;
+
+    color: #3F3131;
+    width: 858px;
+    height: 32px;
+}
+
+.end-button {
+    margin-top: 95px;
+    background: #EB5757;
+    width: 220px;
+    height: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}

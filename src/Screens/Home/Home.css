@@ -1,0 +1,43 @@
+.home {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-title {
+    width: 611px;
+    height: 64px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+
+    color: #EB5757;
+    margin-bottom: 0;
+}
+
+.home-description {
+    width: 858px;
+    height: 64px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+
+    color: #3F3131;
+}
+
+.home-button {
+    width: 220px;
+    height: 50px;
+    background: #EB5757;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
