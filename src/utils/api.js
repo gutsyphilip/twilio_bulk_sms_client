@@ -1,8 +1,5 @@
-import axios from 'axios';
-
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
-
+import axios from "axios";
 
 export function sendMessage(phones, message) {
-    return axios.post(`${API_BASE_URL}/message`, {message, phones})
+  return axios.post(`/message`, { message, phones });
 }
